@@ -25,7 +25,19 @@ impl Config {
 }
 
 pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
-    vec![]
+    // creating the returned vector of references
+    let mut result_of_search: Vec<&'a str> = Vec::new();
+
+    // iterating over lines
+    for line in contents.lines() {
+        // checking if line contains query
+        if line.contains(query) {
+            // pushing line as reference to the mutable results vector
+            result_of_search.push(line);
+        }
+    }
+
+    result_of_search
 }
 
 
@@ -37,9 +49,9 @@ mod tests {
     fn one_result() {
         let query = "duct";
         let contents = "\
-        Rust:
-        save, fast, productive.
-        Pick three.";
+Rust:
+safe, fast, productive.
+Pick three.";
 
         assert_eq!(vec!["safe, fast, productive."], search(query, contents))
     }
