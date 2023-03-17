@@ -16,6 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7faf44c8-8b81-4d08-a052-ee772af66d01" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
@@ -26,6 +27,13 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="prfuvdfm" />
@@ -72,7 +80,7 @@
       <workItem from="1679056588861" duration="6000" />
       <workItem from="1679056601645" duration="7000" />
       <workItem from="1679057242735" duration="6037000" />
-      <workItem from="1679088652771" duration="4190000" />
+      <workItem from="1679088652771" duration="4601000" />
     </task>
     <servers />
   </component>
