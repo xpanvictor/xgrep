@@ -34,7 +34,7 @@ cargo run query filepath.txt
 ## Contribution guidelines
 1. Welcome to xgrep. The project is just a learning tool but anyone is free to contribute.
 2. You can contribute via: 
-- Making issues on [github issues](https://github.com/xpanvictor/xgrep/issues).
+- Submitting issues on [github issues](https://github.com/xpanvictor/xgrep/issues).
 - Code contribution by submitting a [pull request](https://github.com/xpanvictor/xgrep/pulls).
 - Documentation
 3. Rust joy is needed :).
