@@ -29,7 +29,7 @@ cargo run query filepath.txt
 `cargo run query search_filepath.txt > output_filepath.txt`
 
 ## Pending Updates
-1. Make xgrep display line number with the line of search results.
+1. Make xgrep display line number with the line of search results, [issue here](https://github.com/xpanvictor/xgrep/issues/1#issue-1630251493).
 
 ## Contribution guidelines
 1. Welcome to xgrep. The project is just a learning tool but anyone is free to contribute.
