@@ -14,9 +14,9 @@ git clone git@github.com:xpanvictor/xgrep.git
 cd xgrep
 cargo run query filepath.txt
 ```
-where 
-query: a string to search for in
-filepath: a path leading to file to search for
+### Where
+**query**: a string to search for in \
+**filepath**: a path leading to file to search for
 
 # Options
 1. To ignore the search case:
