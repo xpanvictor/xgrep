@@ -23,13 +23,22 @@ pub struct Config {
 }
 
 impl Config {
-    pub fn new(args: &[String]) -> Result<Config, &'static str> {
-        if args.len() < 3 {
-            return Err("Not enough arguments; first is search query, second is filepath");
-        }
+    pub fn new(mut args: impl Iterator<Item = String>) -> Result<Config, &'static str> {
 
-        let query = args[1].clone();
-        let filename = args[2].clone();
+        // skip into first argument
+        args.next();
+
+        // retrieve second value, query
+        let query = match args.next() {
+            Some(arg) => arg,
+            None => return Err("Didn't get a query string")
+        };
+
+        // retrieve third value, filename
+        let filename = match args.next() {
+            Some(arg) => arg,
+            None => return Err("Didn't get a filename")
+        };
 
         let ignore_case = env::var("IGNORE_CASE").is_ok();
 
