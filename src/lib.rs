@@ -52,20 +52,12 @@ impl Config {
 
 // todo: use hashmap to add line number to result
 pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
+    // using iterator to filter lines
+    contents
+        .lines()
+        .filter(|line| line.contains(query))
+        .collect()
 
-    // creating the returned vector of references
-    let mut result_of_search: Vec<&'a str> = Vec::new();
-
-    // iterating over lines
-    for line in contents.lines() {
-        // checking if line contains query
-        if line.contains(query) {
-            // pushing line as reference to the mutable results vector
-            result_of_search.push(line);
-        }
-    }
-
-    result_of_search
 }
 
 pub fn search_case_insensitive<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
