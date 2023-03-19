@@ -14,7 +14,7 @@ git clone git@github.com:xpanvictor/xgrep.git
 cd xgrep
 cargo run query filepath.txt
 ```
-### Where
+___Where___ \
 **query**: a string to search for in \
 **filepath**: a path leading to file to search for
 
@@ -23,7 +23,7 @@ cargo run query filepath.txt
 - Linux: \
 `IGNORE_CASE=1 cargo run query filepath`
 - Powershell: \
-`Env:IGNORE_CASE=1; cargo run to filepath.txt`
+`Env:IGNORE_CASE=1; cargo run query filepath.txt`
 
 2. To save search result to a file \
 `cargo run query search_filepath.txt > output_filepath.txt`
