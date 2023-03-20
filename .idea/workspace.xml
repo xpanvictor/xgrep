@@ -17,6 +17,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7faf44c8-8b81-4d08-a052-ee772af66d01" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,12 +82,16 @@
       <workItem from="1679056601645" duration="7000" />
       <workItem from="1679057242735" duration="6037000" />
       <workItem from="1679088652771" duration="14532000" />
-      <workItem from="1679206229399" duration="3348000" />
+      <workItem from="1679206229399" duration="5031000" />
+      <workItem from="1679251195113" duration="3839000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.rs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

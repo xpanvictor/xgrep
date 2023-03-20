@@ -1,3 +1,7 @@
+
+//! This runs the entire grep functionalities.
+
+
 use std::{fs, env, error::Error};
 
 pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
@@ -16,9 +20,14 @@ pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
+/// Config struct with a constructor new() \
+/// Use to generate a config
 pub struct Config {
+    /// this is what to search for
     pub query: String,
+    /// this is the path to file we want to search
     pub filename: String,
+    /// whether to make case case_insensitive or not
     pub ignore_case: bool
 }
 
@@ -51,6 +60,10 @@ impl Config {
 }
 
 // todo: use hashmap to add line number to result
+/// Search functionality is here \
+/// This search ensures case_sensitive query \
+/// @params: query => what to search for \
+/// @params: content => contents of file to search
 pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
     // using iterator to filter lines
     contents
@@ -60,6 +73,7 @@ pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
 
 }
 
+/// Case_insensitive form of search
 pub fn search_case_insensitive<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
     let query = query.to_lowercase();
 

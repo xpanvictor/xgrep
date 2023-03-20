@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "xgrep"
+name = "xgrep_xpan"
 version = "0.1.0"

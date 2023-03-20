@@ -1,7 +1,9 @@
 [package]
-name = "xgrep"
+name = "xgrep_xpan"
 version = "0.1.0"
 edition = "2021"
+description = "xgrep is a rust implementation of grep. This is a follow up from the rust book"
+license = "MIT OR Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
