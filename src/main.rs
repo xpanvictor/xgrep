@@ -1,6 +1,6 @@
 use std::{env, process};
 
-use xgrep::{Config, run};
+use xgrepx::{Config, run};
 
 fn main() {
 

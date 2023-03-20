@@ -1,5 +1,5 @@
 [package]
-name = "xgrep"
+name = "xgrepx"
 version = "0.1.0"
 edition = "2021"
 description = "xgrep is a rust implementation of grep. This is a follow up from the rust book"

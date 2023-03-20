@@ -17,6 +17,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7faf44c8-8b81-4d08-a052-ee772af66d01" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,7 @@
       <workItem from="1679057242735" duration="6037000" />
       <workItem from="1679088652771" duration="14532000" />
       <workItem from="1679206229399" duration="5031000" />
-      <workItem from="1679251195113" duration="4309000" />
+      <workItem from="1679251195113" duration="4420000" />
     </task>
     <servers />
   </component>
